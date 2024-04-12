@@ -175,7 +175,7 @@ export default function seedData() {
 
   let RFIMatrices = [];
 
-  const filePath = "./api/data/finalData.json";
+  const filePath = "./data/finalData.json";
 
   return new Promise((resolve, reject) => {
     const data = readFile(filePath, "utf8", async (err, data) => {

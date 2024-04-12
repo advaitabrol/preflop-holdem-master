@@ -41,7 +41,7 @@ const corsOptions = {
 };
 
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(
   session({
     secret: "secret",
@@ -63,4 +63,4 @@ app.use("/edit", editNoteRouter);
 app.use("/customize", customizeRangeRouter);
 // Mount the note router
 
-app.listen(process.env.PORT || 3001);
+app.listen(process.env.PORT || 3000);
