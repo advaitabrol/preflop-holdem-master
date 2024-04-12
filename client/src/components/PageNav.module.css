@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.account_txt {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #646cffaa;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.account_txt p {
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.account_txt button {
+  font-size: 0.7em;
+  color: #646cff;
+  cursor: pointer;
+  border: 1px solid #646cff;
+  padding: 4px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 50%;
+  align-self: flex-end;
+}
+
+.account_txt button:hover {
+  background-color: #646cff;
+  color: white;
+}

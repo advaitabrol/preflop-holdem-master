@@ -1,0 +1,26 @@
+.note {
+  margin-left: 60px;
+}
+
+.note_and_delete {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.delete {
+  height: 50px;
+  color: red;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.note_and_edit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.note_and_edit button {
+  height: 40px;
+}

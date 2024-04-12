@@ -1,0 +1,62 @@
+.edit_box {
+  height: calc(
+    40px - 4px
+  ); /* Subtract the border width from the fixed height */
+  width: calc(40px - 4px); /* Subtract the border width from the fixed width */
+  border: 1px solid black;
+  box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.selected_box {
+  border-width: 4px;
+}
+
+.hand {
+  height: 100%;
+  z-index: 10;
+  background: linear-gradient(
+    to right,
+    red var(--percentage, 0%),
+    transparent var(--percentage, 0%)
+  );
+}
+
+.handCorner {
+  font-size: 11px; /* Adjust as needed */
+  font-weight: 700;
+  position: absolute;
+  top: 2px; /* Adjust as needed */
+  left: 2px;
+}
+
+.percentage_input {
+  display: flex;
+  align-items: center;
+}
+
+.percentage_field {
+  width: 18px;
+  height: 10px;
+  padding: 1px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 10px; /* Adjust as needed */
+  text-align: center;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.percentage_field::-webkit-inner-spin-button,
+.percentage_field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.percentage_sign {
+  font-size: 10px; /* Adjust as needed */
+  margin-left: 2px; /* Adjust as needed */
+}

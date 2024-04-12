@@ -1,0 +1,30 @@
+.legend_box {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.legend_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.color_box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #000;
+}
+
+.raise {
+  background-color: red;
+}
+
+.fold {
+  background-color: #f0f0f0; /* Or any other slightly different color for fold */
+}

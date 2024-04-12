@@ -1,0 +1,72 @@
+.NoteBox {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f7ff; /* Light blue background */
+  display: flex;
+  flex-direction: column;
+}
+
+.NoteBox label {
+  margin-bottom: 5px; /* Add a small margin below labels */
+}
+
+.NoteBox .radio_buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.NoteBox .radio_buttons label {
+  display: flex; /* Make labels and inputs appear horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+.NoteBox select,
+.NoteBox textarea {
+  width: calc(100% - 20px); /* Adjust width to allow for padding */
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #bdd7ff; /* Lighter blue border */
+  border-radius: 3px;
+  background-color: #fff; /* White background */
+}
+
+.NoteBox textarea {
+  resize: vertical;
+  /* Allow vertical resizing */
+}
+
+.NoteBox input[type="checkbox"] {
+  margin-right: 5px; /* Add a small margin to the right of checkboxes */
+}
+
+.NoteBox button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.NoteBox button:hover {
+  background-color: #0056b3;
+}
+
+.hand_selection_message {
+  color: red;
+  font-size: 14px;
+}
+
+.margin_bottom {
+  margin-bottom: 12px;
+}
+
+/* Style for selected checkboxes */
+input[type="checkbox"]:checked + label {
+  color: #007bff; /* Change text color for selected checkboxes */
+}

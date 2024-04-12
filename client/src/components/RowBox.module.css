@@ -1,0 +1,26 @@
+.row_box {
+  height: calc(
+    40px - 4px
+  ); /* Subtract the border width from the fixed height */
+  width: calc(40px - 4px); /* Subtract the border width from the fixed width */
+  border: 1px solid black;
+  box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.selected_box {
+  border-width: 4px;
+}
+
+.hand {
+  height: 100%;
+  z-index: 10;
+  background: linear-gradient(
+    to right,
+    red var(--percentage, 0%),
+    transparent var(--percentage, 0%)
+  );
+}

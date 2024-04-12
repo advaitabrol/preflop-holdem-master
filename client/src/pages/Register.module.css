@@ -1,0 +1,42 @@
+.register_container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.form_container {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.register_box input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.login_text {
+  margin-top: 20px;
+}
+
+.login_text p {
+  font-size: 14px;
+}
+
+.login_text a {
+  color: blue;
+  text-decoration: none;
+}
+
+.error_message {
+  color: red;
+}

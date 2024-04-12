@@ -1,0 +1,57 @@
+.raisefoldpaint_container {
+  border: 1px solid #000;
+  padding: 10px;
+  height: 50px;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.paintbrush_icon {
+  font-size: 24px;
+}
+
+.buttons_container {
+  display: flex;
+  gap: 20px;
+}
+
+.raise_button,
+.fold_button {
+  height: 32px;
+  width: 64px;
+  padding: 3px 6px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.raise_button:focus,
+.fold_button:focus {
+  outline: none;
+}
+
+.raise_button:hover,
+.fold_button:hover {
+  border-width: 2px;
+}
+
+.raise_button:active,
+.fold_button:active {
+  border-color: black;
+}
+
+.raise_button {
+  background-color: red;
+}
+
+.selected {
+  border-width: 3px;
+  padding: calc(3px - 2px) calc(6px - 2px);
+}
+
+.fold_button {
+  background-color: #f5f5f5; /* Off white */
+}

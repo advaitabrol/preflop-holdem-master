@@ -1,0 +1,12 @@
+.hand_box {
+  width: 150px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.hand {
+  font-weight: bold;
+}
+
+.raise {
+  font-weight: normal;
+}

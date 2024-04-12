@@ -1,0 +1,11 @@
+.filter_dropdown {
+  display: flex;
+  gap: 30px;
+  margin-left: 60px;
+  align-items: center;
+  color: blue;
+}
+
+.select {
+  height: 20px;
+}
