@@ -1,6 +1,4 @@
 import styles from "./RowBox.module.css";
-import HoverBox from "./HandBox";
-import { useState } from "react";
 
 export default function RowBox({
   hand,

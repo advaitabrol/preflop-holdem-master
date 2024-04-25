@@ -1,10 +1,11 @@
 .row_box {
   height: calc(
-    40px - 4px
+    30px - 4px
   ); /* Subtract the border width from the fixed height */
-  width: calc(40px - 4px); /* Subtract the border width from the fixed width */
+  width: calc(30px - 4px); /* Subtract the border width from the fixed width */
   border: 1px solid black;
   box-sizing: border-box; /* Include border and padding in the element's total width and height */
+  font-size: 10px;
   margin: 1px;
   text-align: center;
   cursor: pointer;

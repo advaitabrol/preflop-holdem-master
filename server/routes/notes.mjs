@@ -1,8 +1,5 @@
 import express from "express";
-import jwt from "jsonwebtoken";
-import mongoose from "mongoose";
 import { Note } from "../models/Note.mjs";
-import { User } from "../models/User.mjs";
 import { authenticateToken } from "./authRoutes.mjs";
 
 const router = express.Router();

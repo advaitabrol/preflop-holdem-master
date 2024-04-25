@@ -1,8 +1,8 @@
 .edit_box {
   height: calc(
-    40px - 4px
+    30px - 4px
   ); /* Subtract the border width from the fixed height */
-  width: calc(40px - 4px); /* Subtract the border width from the fixed width */
+  width: calc(30px - 4px); /* Subtract the border width from the fixed width */
   border: 1px solid black;
   box-sizing: border-box; /* Include border and padding in the element's total width and height */
   margin: 1px;
@@ -26,7 +26,7 @@
 }
 
 .handCorner {
-  font-size: 11px; /* Adjust as needed */
+  font-size: 10px; /* Adjust as needed */
   font-weight: 700;
   position: absolute;
   top: 2px; /* Adjust as needed */
@@ -39,12 +39,12 @@
 }
 
 .percentage_field {
-  width: 18px;
-  height: 10px;
+  width: 13px;
+  height: 8px;
   padding: 1px;
   border: 1px solid black;
   border-radius: 3px;
-  font-size: 10px; /* Adjust as needed */
+  font-size: 8px;
   text-align: center;
   -moz-appearance: textfield;
   appearance: textfield;
@@ -57,6 +57,7 @@
 }
 
 .percentage_sign {
-  font-size: 10px; /* Adjust as needed */
-  margin-left: 2px; /* Adjust as needed */
+  font-size: 8px; /* Adjust as needed */
+  font-weight: 700;
+  margin-left: 1px; /* Adjust as needed */
 }

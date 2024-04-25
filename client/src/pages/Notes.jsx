@@ -13,7 +13,7 @@ export default function Notes({ isSignedIn, onSignInChange }) {
     if (!validState) {
       navigate("/login");
     }
-  }, []); // Empty dependency array to ensure useEffect runs only once on mount
+  }, [navigate, validState]); // Empty dependency array to ensure useEffect runs only once on mount
 
   // If user is not authenticated, useEffect will navigate to "/login" before rendering
   if (!validState) {

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./FilterDropdown.module.css";
 
 export default function FilterDropdown({ selectedFilter, onFilterChange }) {

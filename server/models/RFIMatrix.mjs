@@ -17,7 +17,3 @@ const RFIMatrixSchema = new mongoose.Schema({
 });
 
 export const RFIMatrix = mongoose.model("RFIMatrix", RFIMatrixSchema);
-//const vsRFI = mongoose.model('vsRFI', vsRFISchema);
-//const RFIvs3BET = mongoose.model('RFIvs3BET', RFIvs3BETSchema);
-//const vs4BET = mongoose.model('vs4BET', vs4BETSchema);
-//const Note = mongoose.model('Note', NoteSchema);

@@ -47,40 +47,6 @@ router.get("/:position", async (req, res) => {
     console.error(error);
     res.status(500).json({ message: "Internal Server Error" });
   }
-
-  /*
-  try {
-    const userId = req.user.userId;
-    const position = req.query.position;
-
-    // Verify that the note belongs to the requesting user
-    let matrix = await RFIMatrix.findOne({ position, userId });
-
-    if (!matrix) {
-      const defaultMatrix = await RFIMatrix.findOne({ position, userId: null });
-
-      if (!defaultMatrix) {
-        return res.status(404).json({ error: "Default RFI matrix not found" });
-      }
-
-      // Create a new matrix using the data of the default matrix with the added userID
-      matrix = new RFIMatrix({
-        position: defaultMatrix.position,
-        matrix: defaultMatrix.matrix,
-        userId: userId,
-      });
-
-      // Save the new matrix to the database
-      await matrix.save();
-    }
-    res
-      .status(200)
-      .json({ message: "personal matrix retrieved", matrix: matrix });
-  } catch (error) {
-    console.error("Error finding customizable matrix:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-  */
 });
 
 router.post("/notes", authenticateToken, async (req, res) => {

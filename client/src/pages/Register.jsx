@@ -1,4 +1,3 @@
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 import PageNav from "../components/PageNav";
 import styles from "./Register.module.css";
 import { useState } from "react";

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import PaintBrushIcon from "./PaintBrushIcon";
 import styles from "./RaiseFoldPaint.module.css";
 

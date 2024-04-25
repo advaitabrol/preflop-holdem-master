@@ -23,6 +23,8 @@ export default function NoteBox({ selectedHand, position }) {
 
     if (noteType === "handSpecific" && !selectedHand.hand) {
       setError("Please select a hand for hand-specific notes.");
+    } else if (noteContent === "") {
+      setError("You cannot submit an empty note.");
     } else {
       const token = localStorage.getItem("accessToken");
 

@@ -5,7 +5,7 @@ export default function HandBox({ hand, raisePercentage }) {
   if (raisePercentage > 66) {
     color = "green";
   } else if (raisePercentage > 33) {
-    color = "yellow";
+    color = "orange";
   }
   return (
     <div className={styles.hand_box}>

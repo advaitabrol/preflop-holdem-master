@@ -1,12 +1,13 @@
 .chart_container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
+  align-items: center;
 }
 
 .legend_hover {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .matrix_grid {
@@ -19,7 +20,7 @@
   display: flex;
   align-items: stretch;
   gap: 8px;
-  height: 40px;
+  height: 30px;
 }
 
 .row_and_hover {
@@ -29,6 +30,6 @@
 .customize {
   justify-self: right;
   margin-left: auto;
-  height: 50px;
+  height: 40px;
   align-self: center;
 }

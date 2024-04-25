@@ -107,7 +107,7 @@ export default function NoteContainer() {
         })
       );
     }
-  }, [notes, selectedFilter]);
+  }, [selectedFilter]);
   return (
     <div>
       <FilterDropdown
